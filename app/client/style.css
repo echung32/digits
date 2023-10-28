@@ -3,8 +3,8 @@
 
 /* Set up some CSS variables to theme the application. */
 :root {
-  --matr-navbar-bg: #414141;
-  --matr-navbar-bg-rgb: 65, 65, 65;
+  --matr-navbar-bg: #3c3c3c;
+  --matr-navbar-bg-rgb: 60, 60, 60;
   --matr-navbar-text-color: white;
   --matr-navbar-highlight-text: grey;
 }
@@ -30,6 +30,10 @@ body .navbar {
 
 .bg-dark a.dropdown-item {
   color: var(--matr-navbar-bg);
+}
+
+.navbar a.nav-link.active {
+  color: var(--matr-navbar-highlight-text);
 }
 
 /* Set the alert background on the signin and signup pages. */
