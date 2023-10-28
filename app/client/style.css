@@ -3,8 +3,8 @@
 
 /* Set up some CSS variables to theme the application. */
 :root {
-  --matr-navbar-bg: #414141;
-  --matr-navbar-bg-rgb: 65, 65, 65;
+  --matr-navbar-bg: #3c3c3c;
+  --matr-navbar-bg-rgb: 60, 60, 60;
   --matr-navbar-text-color: white;
   --matr-navbar-highlight-text: grey;
 }
@@ -47,4 +47,8 @@ body .navbar {
 
 footer, footer a {
   color: var(--matr-navbar-text-color);
+}
+
+.navbar a.nav-link.active {
+  color: var(--matr-navbar-highlight-text);
 }
