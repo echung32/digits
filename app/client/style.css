@@ -32,11 +32,6 @@ body .navbar {
   color: var(--matr-navbar-bg);
 }
 
-/* Set the alert background on the signin and signup pages. */
-#signin-page .alert-light, #signup-page .alert-light {
-  --bs-alert-bg: var(--matr-navbar-bg);
-}
-
 /* Define custom styles */
 .gray-background {
   background-color: var(--matr-navbar-bg);
