@@ -14,6 +14,7 @@ const formSchema = new SimpleSchema({
   address: String,
   image: String,
   description: String,
+  owner: String,
 });
 
 const bridge = new SimpleSchema2Bridge(formSchema);
